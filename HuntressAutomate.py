@@ -60,7 +60,7 @@ def runExploitTest(customLdapConnection):
 
 if __name__=="__main__":
 
-    LdapConnection = input("Please enter your custom LDAP Connection string provided to you by huntress: \n")
+    LdapConnection = raw_input("Please enter your custom LDAP Connection string provided to you by huntress: \n")
 
     importTargets()
     findOpenPorts()
